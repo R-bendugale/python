@@ -1,10 +1,9 @@
 n = int(input("Enter a positive integer n: "))
-i#f n > 0:
- total = 0
- i = 1
+if n > 0:
+    print("Natural numbers up to", n, "are:")
+    i = 1
     while i <= n:
-        total += i
+        print(i, end=' ')
         i += 1
-    print("Sum of natural numbers up to", n, "is:", total)
 else:
     print("Please enter a positive integer.")

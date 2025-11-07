@@ -1,0 +1,34 @@
+#example 9
+for i in range(1, 6):  
+    for j in range(65, 65 + i):  
+        print(chr(j), end=" ")  
+    print()  
+
+
+#example 10
+for i in range(5, 0, -1):  
+    for j in range(65, 65 + i):  
+        print(chr(j), end=" ")  
+    print()  
+
+
+#example 11
+for i in range(1, 6):  
+    for j in range(1, i + 1):  
+        print(j, end=" ")
+    print()  
+
+
+#example 12
+for i in range(5, 0, -1): 
+    for j in range(1, i + 1):
+        print(j, end=" ")
+    print()  
+
+
+# Number of lines
+#lines = 3
+
+# Print 'A B C' in each line
+for _ in range(lines):
+    print("A B C")
